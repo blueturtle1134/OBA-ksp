@@ -1,0 +1,7 @@
+/*
+/*/
+!README.md
+!.gitignore
+!saves
+saves/*
+!saves/OBA
