@@ -140,7 +140,7 @@ GAME
 		{
 			enableEfficiency = True
 			stupidityAffectsEfficiency = True
-			partsCostFunds = True
+			partsCostFunds = False
 			enableRecipes = True
 			enableKACIntegration = True
 		}
@@ -158,7 +158,7 @@ GAME
 		CommNetParams
 		{
 			requireSignalForControl = False
-			plasmaBlackout = False
+			plasmaBlackout = True
 			rangeModifier = 0.65
 			DSNModifier = 1
 			occlusionMultiplierVac = 1
@@ -169,7 +169,7 @@ GAME
 		{
 			CustomKerbonauts = False
 			KolonistHiring = True
-			KolonistRescue = True
+			KolonistRescue = False
 			VeteranRescue = True
 			AlternateCoreCost = True
 			CoreCost = 50000
@@ -263,7 +263,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 160.3000000000082
+		update = 225.90000000004176
 		version = 1.6.1
 		WEIGHTS
 		{
@@ -793,10 +793,10 @@ GAME
 		scene = 7, 8, 5
 		CONTRACT
 		{
-			guid = 1fffcf1b-70d2-4af5-8542-a9693423cb46
+			guid = 16146bcb-1cd7-4b79-bcfc-fa2ed1c7593f
 			type = ConfiguredContract
 			prestige = 0
-			seed = 75432854
+			seed = 1226397432
 			state = Offered
 			viewed = Unseen
 			agent = 
@@ -804,7 +804,7 @@ GAME
 			deadlineType = None
 			expiryType = Floating
 			ignoresWeight = True
-			values = 1960140,0,0,18000,0,0,1,0,1960163.7,0,0,0
+			values = 368340,0,0,18000,0,0,1,0,368508.66,0,0,0
 			subtype = FS_KSC
 			title = Perform experiments around KSC
 			description = There are lots of opportunities to do science around the Kerbal Space Center.  Wernher needs us to run a few tests at different locations as a control test of our experiments.
@@ -818,26 +818,26 @@ GAME
 				id = CollectScience
 				state = Incomplete
 				disableOnStateChange = False
-				values = 4537,0,0,0,0
+				values = 3638,0,0,0,0
 				ContractIdentifier = FieldResearch.FS_KSC
 				title = 
 				notes = 
 				completedMessage = 
 				allowStateReset = False
 				targetBody = Kerbin
-				biome = MissionControl
+				biome = LaunchPad
 				situation = SrfLanded
 				experiment = mysteryGoo
 				recoveryMethod = Ideal
 				PARAM
 				{
 					name = ParameterDelegate`1
-					id = Location: KSC's Mission Control
+					id = Location: KSC's Launch Pad
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = FieldResearch.FS_KSC
-					title = Location: KSC's Mission Control
+					title = Location: KSC's Launch Pad
 					notes = 
 					completedMessage = 
 				}
@@ -896,7 +896,7 @@ GAME
 				id = CollectScience
 				state = Incomplete
 				disableOnStateChange = False
-				values = 4355,0,0,0,0
+				values = 3079,0,0,0,0
 				ContractIdentifier = FieldResearch.FS_KSC
 				title = 
 				notes = 
@@ -974,26 +974,26 @@ GAME
 				id = CollectScience
 				state = Incomplete
 				disableOnStateChange = False
-				values = 3726,0,0,0,0
+				values = 4644,0,0,0,0
 				ContractIdentifier = FieldResearch.FS_KSC
 				title = 
 				notes = 
 				completedMessage = 
 				allowStateReset = False
 				targetBody = Kerbin
-				biome = VAB
+				biome = SPH
 				situation = SrfLanded
 				experiment = mysteryGoo
 				recoveryMethod = Ideal
 				PARAM
 				{
 					name = ParameterDelegate`1
-					id = Location: KSC's VAB
+					id = Location: KSC's SPH
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = FieldResearch.FS_KSC
-					title = Location: KSC's VAB
+					title = Location: KSC's SPH
 					notes = 
 					completedMessage = 
 				}
@@ -1052,26 +1052,26 @@ GAME
 				id = CollectScience
 				state = Incomplete
 				disableOnStateChange = False
-				values = 3839,0,0,0,0
+				values = 3222,0,0,0,0
 				ContractIdentifier = FieldResearch.FS_KSC
 				title = 
 				notes = 
 				completedMessage = 
 				allowStateReset = False
 				targetBody = Kerbin
-				biome = Crawlerway
+				biome = TrackingStation
 				situation = SrfLanded
 				experiment = mysteryGoo
 				recoveryMethod = Ideal
 				PARAM
 				{
 					name = ParameterDelegate`1
-					id = Location: KSC's Crawlerway
+					id = Location: KSC's Tracking Station
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = FieldResearch.FS_KSC
-					title = Location: KSC's Crawlerway
+					title = Location: KSC's Tracking Station
 					notes = 
 					completedMessage = 
 				}
@@ -1476,7 +1476,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.6.1
-		UT = 166.32000000001128
+		UT = 227.92000000004279
 		activeVessel = 0
 		mapViewFiltering = 0
 		commNetUIModeTracking = Network
