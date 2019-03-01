@@ -5,3 +5,6 @@
 !saves
 saves/*
 !saves/OBA
+saves/OBA/*
+!saves/OBA/persistent.sfs
+!saves/OBA/persistent.loadmeta

@@ -43,4 +43,4 @@ partModules = RealChuteFAR
 partModules = ModuleDragModifier
 partModules = FARWingAerodynamicModel
 partModules = ModuleAnimateGeneric
-saveMD5 = 9d1a05c7bdbe5b70c9b085331743333e
+saveMD5 = 56087421dfe61454edbe9182522661b0
